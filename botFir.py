@@ -4,7 +4,7 @@ import base64
 import mimetypes
 
 # REPLACE THIS with your NEW, uncompromised key
-HF_API_KEY = "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" 
+HF_API_KEY = "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" 
 
 API_URL = "https://router.huggingface.co/v1/chat/completions"
 headers = {
@@ -81,3 +81,4 @@ if result and "choices" in result:
 else:
 
     print("Failed to get result.")
+
